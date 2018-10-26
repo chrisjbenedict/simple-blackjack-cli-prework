@@ -33,8 +33,8 @@ def initial_round
   card1 = deal_card
   card2 = deal_card
   card_total = card1 + card2
+  display_card_total
   return card_total
-  puts display_card_total
 end
 
 def hit?
