@@ -6,7 +6,7 @@ end
 def deal_card
   # code #deal_card here
   range = 1..11
-  return Math.rand(range)
+  puts Math.rand(range)
 end
 
 def display_card_total
