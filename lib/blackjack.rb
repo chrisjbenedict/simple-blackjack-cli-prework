@@ -32,9 +32,8 @@ def initial_round
   # code #initial_round here
   card1 = deal_card
   card2 = deal_card
-  sum = card1 + card2
-  puts sum
-  return sum
+  card_total = card1 + card2
+  puts "#{display_card_total}"
 end
 
 def hit?
